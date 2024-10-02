@@ -1,0 +1,78 @@
+* {
+    font-style: normal;
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: "Jost", Times, sans-sarif;
+        text-align: center;
+        color: #E3D0F6;
+        background-color: #562C59;
+    }
+* {
+        margin: 10px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+.menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+h1 {
+        font-size: 50px;
+        color: #92408C;
+    }
+.img1, .img2, .img3, .img4, .img5, .img6 {
+    display: flex;
+    flex-direction: row;
+    background-color: #929488;
+    width: 250px;
+    height: 400px;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    filter: grayscale(1);
+    transition: 1s;
+}
+.pics {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.first-row {
+    display: flex;
+    flex-direction: row;
+}
+.second-row {
+    display: flex;
+    flex-direction: row;
+}
+.img1:hover {
+    filter: grayscale(0);
+    border: 5px solid #E3D0F6;
+}
+.img2:hover {
+    filter: grayscale(0);
+    border: 5px solid #E3D0F6;
+}
+.img3:hover {
+    filter: grayscale(0);
+    border: 5px solid #E3D0F6;
+}
+.img4:hover {
+    filter: grayscale(0);
+    border: 5px solid #E3D0F6;
+}
+.img5:hover {
+    filter: grayscale(0);
+    border: 5px solid #E3D0F6;
+}
+.img6:hover {
+    filter: grayscale(0);
+    border: 5px solid #E3D0F6;
+}

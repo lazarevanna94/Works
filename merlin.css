@@ -1,0 +1,50 @@
+#wrapper {
+    position:static;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-bottom: 40px;
+    z-index: 10;
+}
+
+#wrapper {
+    
+    position:relative;
+    z-index: 10;
+    top: 1000;
+    left: 400;
+    right: 300;
+}
+/*#article1 {
+    position:fixed;
+    top: 100px;
+    left: 50px;
+    z-index: 10;
+}
+    
+.compound-title {
+    position: static;
+    z-index: 1;
+}
+div {
+    border: 1px solid #454545;
+    box-sizing: border-box; /* задали box-sizing */
+    width: 400px; /* ширина блока */ 
+    height: 100px; /* высота блока */
+    border: 6px solid #949599; /* граница не влияет на размер */
+    padding: 20px; /* отступ не растягивает блок */
+    margin: 20px; /* не учитывается */
+
+
+.flex-container {
+    display: flex;
+    border: 2px dotted green;
+    padding: 40px;
+} 
+.flex-element {
+    width: 500px;
+    height: 300px;
+    margin-right: 10px;
+    background: orange;
+    font-size: 46px;
+    text-align: center;
+}
