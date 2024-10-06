@@ -1,0 +1,69 @@
+* {
+    font-style: normal;
+        font-size: 20px;
+        line-height: 1.5;
+        font-family: "Jost", Times, sans-sarif;
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+.title {
+    display: grid;
+    grid-template-rows: 1fr;
+    background-color: rgb(180, 177, 177);
+    text-align: center;
+    height: 100px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 500px;
+    justify-items: stretch;
+}
+.main-part {
+    height: 100%;
+    background-color: bisque;
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    padding: 10px;
+}
+.title1 {
+    grid-column: 2/3;
+    text-align: center;
+
+}
+.side {
+    background-color: aquamarine;
+    height: 100%;
+    text-align: center;
+}
+.more1 {
+    background-color: rgb(223, 162, 88);
+    grid-column: 1/2;
+}
+.more2 {
+    background-color: rgb(223, 162, 88);
+    grid-column: 3/4;
+}
+.more3 {
+    background-color: rgb(223, 162, 88);
+    grid-row: 3/4;
+    grid-column: 1/4;
+}
+
+.footer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(4, 15%);
+    justify-content: space-evenly;
+    background-color: rgb(180, 177, 177);
+    height: 100px;
+}
+.foot {
+    background-color: rgb(214, 206, 206);
+    text-align: center;
+}
